@@ -15,7 +15,7 @@ export class SideBarComponent implements OnInit {
   customOptions:Array<any> = [];
 
   constructor(private router:Router) {
-    console.log("asd")
+    console.log("Sidebar")
    }
 
   ngOnInit(): void {
@@ -31,7 +31,7 @@ export class SideBarComponent implements OnInit {
         router: ['/', 'history']
       },
       {
-        name: 'Library',
+        name: 'Favorites',
         icon: 'uil uil-chart',
         router: ['/', 'favorites'],
         query:{hola:'mundo'}
